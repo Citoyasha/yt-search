@@ -3,7 +3,7 @@ Youtube Crawler with no API that returns 3 first videos.
 
 ## Usage
 ```sh
-const yt = require('./yt_search.js');
+const yt = require('yt_search');
 let query = "search term";
 yt.search(query)
 .then(function(result) {
