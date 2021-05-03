@@ -1,6 +1,6 @@
 {
   "name": "@citoyasha/yt-search",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Youtube Crawler with no API that returns 3 first videos.",
   "main": "yt_search.js",
   "dependencies": {
