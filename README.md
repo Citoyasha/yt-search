@@ -1,13 +1,23 @@
 # yt-search
-Youtube Crawler with no API that returns 3 first videos.
+Youtube Crawler with no API that returns 3 first videos by default.
+
+## Install
+```sh
+npm i @citoyasha/yt-search
+```
 
 ## Usage
 ```sh
-const yt = require('yt_search');
-let query = "search term";
-yt.search(query)
+yt.search(search_term) //returns the first 3 videos
+yt.search(search_term, nb) //returns nb videos
+```
+
+```sh
+const yt = require('@citoyasha/yt_search');
+let query = "Tunisia88";
+yt.search(query, 10)
 .then(function(result) {
-//Do something with result
+//result returns the first 10 videos
 });
 ```
 
